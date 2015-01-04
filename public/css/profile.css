@@ -1,0 +1,703 @@
+.confirmation-area{
+    background: #333;
+    display: none;
+}
+
+.confirmation-area p{
+    color: #A1A1A1;
+    margin: 0;
+    padding: 10px;
+}
+
+.confirmation-area .email-info{
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.confirmation-area .email-info:hover{
+    text-decoration: underline;
+}
+.logo a {
+    color: #525252;
+}
+.search-box .input-group{
+    border: 1px solid #efefef;
+}
+header.header-area {
+    background-color: #fff;
+    border-bottom: 1px solid #e1e8ed;
+    box-sizing: border-box;
+
+    /*background: rgba(235,233,249,1);
+    background: -moz-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(220,214,241,1) 42%, rgba(216,208,239,1) 55%, rgba(209,202,237,1) 68%, rgba(206,199,236,1) 74%, rgba(193,191,234,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(235,233,249,1)), color-stop(42%, rgba(220,214,241,1)), color-stop(55%, rgba(216,208,239,1)), color-stop(68%, rgba(209,202,237,1)), color-stop(74%, rgba(206,199,236,1)), color-stop(100%, rgba(193,191,234,1)));
+    background: -webkit-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(220,214,241,1) 42%, rgba(216,208,239,1) 55%, rgba(209,202,237,1) 68%, rgba(206,199,236,1) 74%, rgba(193,191,234,1) 100%);
+    background: -o-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(220,214,241,1) 42%, rgba(216,208,239,1) 55%, rgba(209,202,237,1) 68%, rgba(206,199,236,1) 74%, rgba(193,191,234,1) 100%);
+    background: -ms-linear-gradient(top, rgba(235,233,249,1) 0%, rgba(220,214,241,1) 42%, rgba(216,208,239,1) 55%, rgba(209,202,237,1) 68%, rgba(206,199,236,1) 74%, rgba(193,191,234,1) 100%);
+    background: linear-gradient(to bottom, rgba(235,233,249,1) 0%, rgba(220,214,241,1) 42%, rgba(216,208,239,1) 55%, rgba(209,202,237,1) 68%, rgba(206,199,236,1) 74%, rgba(193,191,234,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebe9f9', endColorstr='#c1bfea', GradientType=0 );*/
+}
+
+.header-area .logo{
+    border-right: 1px solid #C1C1C1;
+    display: inline-block;
+}
+.header-area .logo-part {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.logo h1 {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.search-box .navbar-form {
+    margin: 8px 0;
+}
+
+.header-area .bell{
+    color: #525252;
+    display: inline-block;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.search-box .form-control {
+    height: 35px;
+    padding: 8px 10px;
+    width: 190px;
+}
+
+.search-box select, .search-box option {
+    padding: 5px;
+}
+
+.search-box .input-group-btn {
+    float: left;
+}
+.description_part > label {
+    vertical-align: top;
+}
+.product_add_form div {
+    margin-bottom: 5px;
+}
+.product_add_form .image_path {
+    display: inline-block;
+    margin-right: 22px;
+}
+
+.search-box .input-group-btn button{
+    height: 35px;
+    padding: 8px 12px;
+}
+
+.user-area{
+    text-align: right;
+}
+
+.user-area .user-info{
+    display: inline-block;
+    /*margin: 8px 0;*/
+    padding: 5px;
+}
+
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;    
+}
+
+/* if you want to hide the arrow */
+a.menu:after, .dropdown-toggle:after {
+    content: none;
+}
+
+
+.user-area .user-img{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.user-area .user-name {
+    color: #666;
+    display: inline-block;
+    /*padding: 8px;*/
+}
+.cart-area a{
+    color: #666;
+}
+
+.user-name .dropdown-menu {
+    background: linear-gradient(to bottom, #3C3C3C 0%, #222222 100%);
+    border: medium none;
+    box-shadow: none;
+    text-align: left;
+    margin: 0;
+    border-radius: 0;
+}
+
+.user-name .dropdown-menu > li > a {
+    color: #FFFFFF;
+    padding: 4px 10px;
+}
+
+.user-name .dropdown-menu > li > a:hover{
+    background: #000;
+
+}
+
+.user-info a.dropdown-toggle:hover {
+    background: -moz-linear-gradient(center top , #767676, #414751) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -webkit-linear-gradient(center top , #767676, #414751) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -o-linear-gradient(center top , #767676, #414751) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: -ms-linear-gradient(center top , #767676, #414751) repeat scroll 0 0 rgba(0, 0, 0, 0);    
+}
+.user-area .cart-area{
+    border-left: 1px solid #C1C1C1;
+    border-right: 1px solid #C1C1C1;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 0 10px;
+}
+#add_pro_button {
+    height: 225px;
+    width: 265px;
+    font-size: 35px;
+}
+.timeline_tab_content .add_category_section .panel-heading {
+    background: none repeat scroll 0 0 #d02b55;
+    color: #fff;
+    font-size: 18px;
+}
+.user-area .cart-area a:hover{
+    /*color: #bebebe;*/
+}
+.pagination .active span {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    color: #000;
+}
+.pagination > li > a, .pagination > li > span{
+    color: #000;
+}
+
+/*cover area css*/
+section.user-cover-area {
+    border-bottom: 1px solid #efefef;
+    /*margin-bottom: 15px;*/
+}
+.user-profile-area{
+    position: relative;
+}
+
+.user-cover-area .user-cover-img > img {
+    width: 100%;
+}
+.user-cover {
+
+}
+.user-profile-area .profile-name {
+    bottom: 15px;
+    left: 50px;
+    position: absolute;
+}
+
+.user-profile-area .profile-name .user-profile-pic {
+    /*    background: none repeat scroll 0 0 #636363;
+    */
+    /*padding: 5px;*/
+    float: left;
+    background: none repeat scroll 0 0 #fff;
+    border: 5px solid #fff;
+    border-radius: 12px;
+    box-shadow: 0 1px 1px rgba(136, 153, 166, 0.15);
+    height: 200px;
+    position: relative;
+    width: 200px;
+}
+.user-profile-pic > img {
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+
+.user-title {
+    bottom: 60px;
+    left: 275px;
+    position: absolute;
+}
+
+.profile-title h2, .profile-title h4 {
+    margin: 0;
+    color: #FFFFFF;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+}
+.user-title .profile-title {    
+    margin-bottom: 10px;
+}
+
+.profile-name .user-title .fb-section {
+    margin-left: 10px;
+}
+
+.timeline-area {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+.follow-btn a.btn{
+    background: url(../img/follow1.png);
+    background-repeat: no-repeat;
+    background-position: left 8px center;
+    background-position-x: 8px;
+    background-position-y: 50%;
+}
+.timeline-heading a.timeline-title{
+    /*border-left: 1px solid #E9EAED;*/
+    text-transform: uppercase;
+    font-size: 14px;
+
+    color: #000000;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 25px;
+    position: relative;
+    float: left;    
+}
+.nav .dropdown-menu{
+    margin: 0;
+    left: auto;
+    right: 0;
+}
+/*.timeline-heading a.timeline-title:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}*/
+.timeline-heading a.timeline-title.is_active, .timeline-heading a.timeline-title:hover{
+    border-bottom: 4px solid #D02B55;
+}
+/*.timeline-heading a.timeline-title:hover:after {
+    width: 100%;
+    background: #D02B55;
+}*/
+
+.timeline-heading a.timeline-title.is_active,.timeline-heading a.timeline-title:hover{
+    /*border-bottom: 4px solid #D02B55;*/
+}
+
+.timeline-heading a.timeline-title:last-child{
+    border-right: 1px solid #E9EAED;
+}
+
+.timeline-heading a.timeline-title:hover{
+    background: #F6F7F8;
+}
+
+.timeline-area .timeline-heading {
+    padding-left: 245px;
+}
+
+.timeline-heading .timeline-title .timeline-arrow {
+    background-image: url("../img/fb_bg.png");
+    background-position: -102px -196px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    bottom: -1px;
+    /*display: none;*/
+    height: 9px;
+    left: 50%;
+    margin-left: -8px;
+    position: absolute;
+    width: 17px; 
+}
+.timeline-heading .follow-btn {
+    display: inline-block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 8px;
+}
+
+/* ===================== timeline_tab_content css ================================ */
+
+.timeline_tab_content .profile_inner_content{
+    background: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.timeline_tab_content .panel-heading {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.timeline_tab_content .inner_sidebar{
+    padding: 0;
+}
+
+.timeline-heading .follow-btn a{
+    border: 1px solid #999999;
+    font-weight: bold;
+    height: 31px;
+    padding: 5px 15px 5px 35px;
+    /*width: 100px;*/
+}
+.timeline-heading .follow-btn a:hover{
+    background-color: #efefef;
+    /*color: #fff;*/
+}
+.timeline_tab_content {
+    background: none repeat scroll 0 0 #f5f8fa;
+    padding-top: 15px;
+}
+
+.add_category_section .form-group {
+    width: auto;
+}
+
+.add_category_section .form-control {
+    border: 1px solid #999999;
+    font-size: 12px;
+    height: 30px;
+    padding: 4px 5px;
+    width: 115px;
+}
+
+.add_category_section button {
+    background: none repeat scroll 0 0 #7F7F7F;
+    color: #FFFFFF;
+    height: 30px;
+    margin-left: 5px;
+    padding: 5px 8px;
+}
+
+.add_category_section .btn-default:hover, .btn-default:focus {
+    background: none repeat scroll 0 0 #585858;
+    color: #FFFFFF;
+}
+
+.category_title_area {
+    font-size: 13px;
+}
+
+.category_title_area .cat_icons{
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.category_title_area ul.category_list, .category_title_area ul.sub_category{
+    list-style: none;
+}
+
+.category_title_area ul.category_list > li{
+    margin-bottom: 10px;
+}
+
+.category_title_area a{
+    color: #333;
+}
+
+.category_title_area ul.category_list ul.sub_category{
+    padding-left: 25px;
+}
+
+.overview_section .panel-body p {
+    /*margin: 0;*/
+}
+
+.overview_section .panel-body a {
+    color: #555555;
+    display: block;
+    font-size: 12px;
+    line-height: normal;
+    padding: 3px;
+}
+.overview_section .panel-body a:hover{
+    background: #999;
+    color: #fff;
+}
+
+.follower_product_section .related_bought_img {
+    float: left;
+}
+
+.follower_product_section .related_product_title {
+    float: left;
+    margin-left: 5px;
+}
+
+.follower_product_section .related_product_title a {
+    color: #3B5998;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.follower_product_section .related_product_title a:hover {
+    text-decoration: underline;
+}
+
+.related_product_title span {
+    display: block;
+}
+
+.product_add_form a {
+    color: #000000;
+}
+
+.product_add_form label {
+    font-size: 14px;
+    font-weight: normal;
+    min-width: 160px;
+}
+.product_add_form input {
+    border: 1px solid #333333;
+    font-size: 14px;
+    padding: 3px;
+}
+
+p.inline-message {
+    display: inline-block;
+    font-size: 13px;
+    margin: 0;
+}
+
+.product_add_form textarea {
+    border: 1px solid #333333;
+    padding: 5px;
+    width: 65%;
+}
+
+.product_add_form .button-medium.btn.btn-default {
+    height: 27px;
+}
+
+.product_add_form select {
+    border: 1px solid #333333;
+    font-size: 13px;
+}
+
+.product_add_form input[type="submit"] {
+    height: 36px;
+    width: 75px;
+}
+
+.product_view_area {
+    /*background: none repeat scroll 0 0 #EAEAEA;*/
+}
+.product-filter {
+    background: none repeat scroll 0 0 #EAEAEA;
+}
+.product-filter .product-view-search {
+    float: left;
+}
+
+.product-view-search .input-group .form-control {
+    border: 1px solid #333333;
+    border-radius: 3px;
+    height: 30px;
+}
+
+.product-view-search .input-group-btn {
+    float: left;
+}
+.product-view-search .input-group-btn button.btn{
+    border-radius: 5px;
+    height: 30px;
+    margin: 0 5px;
+    padding: 2px 15px;
+}
+
+.product-filter .product-sort {
+    float: right;
+    padding: 7px 15px;
+}
+
+.product-filter .product-sort b {
+    font-size: 14px;
+}
+
+.product-filter .product-sort > select {
+    border: 1px solid #999999;
+    font-size: 13px;
+    padding: 3px;
+}
+
+.product-filter .product-display {
+    float: right;
+}
+
+.product-filter .product-display a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #ACACAC;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 24px;
+    margin: 5px 5px 0 0;
+    padding: 4px;
+}
+
+.product-grid {
+    border: 1px solid #999999;
+    box-shadow: 4px 4px 5px #CECECE;
+    display: inline-block;
+    margin: 10px 4px 20px;
+    padding: 10px;
+    width: 265px;
+}
+
+.product-grid a {
+    color: #000000;
+}
+
+.product-grid .add-wishlist a{
+    background: none repeat scroll 0 0 #EBEBEB;
+    color: #AEAEAE;
+    cursor: pointer;
+    float: left;
+    padding: 5px;
+}
+.product-grid .add-wishlist a:hover{
+    color: #F2665D;
+    background: #dbdbdb;
+}
+
+.product-grid .remove-btn a{
+    background: none repeat scroll 0 0 #EBEBEB;
+    float: right;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.product-grid .remove-btn a:hover{
+    background: #dbdbdb;
+}
+
+.product-image img {
+    height: auto;
+    width: 100%;
+}
+.product-grid .product-description {
+    position: relative;
+}
+
+.product-grid .product-image > a {
+    display: block;
+}
+
+.product-description:hover .product-title a{
+    background: #333;
+    color: #fff;
+}
+
+.product-grid .product-title a{
+    background: none repeat scroll 0 0 #EDEDED;
+    bottom: 0;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+    opacity: 0.85;
+    padding: 10px;
+    position: absolute;
+}
+
+.product-grid .product-price {
+    border-top: 1px solid #999999;
+    font-weight: bold;
+    text-align: right;
+}
+
+.product-list {
+    border: 1px solid #999999;
+    box-shadow: 4px 4px 5px #CECECE;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.product-list a{
+    color: #333;
+}
+
+.product-list .product-list-image {
+    background: none repeat scroll 0 0 #C7C7C7;
+    float: left;
+    padding: 5px;
+}
+.product-list .product-list-description {
+    float: left;
+    font-size: 14px;
+    line-height: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 26%;
+}
+.product-list .product-list-description > a {
+    font-weight: bold;
+    font-size: 15px;
+}
+.product-list .product-list-viewer {
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    width: 15%;
+}
+.product-list .product-list-review-time {
+    float: left;
+    font-size: 15px;
+    text-align: center;
+    width: 18%;
+}
+.product-list .product-list-price {
+    float: left;
+    text-align: right;
+    width: 18%;
+}
+.product-list .product-list-image img {
+    height: auto;
+    width: 100%;
+}
+
+.product-list .product-list-price > span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.product-list .add-wishlist {
+    display: inline-block;
+}
+
+.product-list .add-wishlist a{
+    background: none repeat scroll 0 0 #EBEBEB;
+    color: #AEAEAE;
+    cursor: pointer;
+    /*float: left;*/
+    padding: 5px;
+}
+.product-list .add-wishlist a:hover{
+    color: #F2665D;
+    background: #dbdbdb;
+}
+
+.product-list .remove-btn {
+    display: inline-block;
+}
+
+.product-list .remove-btn a{
+    background: none repeat scroll 0 0 #EBEBEB;
+    /*float: right;*/
+    padding: 5px;
+    cursor: pointer;
+}
+
+.product-list .remove-btn a:hover{
+    background: #dbdbdb;
+}
